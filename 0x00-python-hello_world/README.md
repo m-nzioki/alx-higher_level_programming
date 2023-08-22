@@ -2,47 +2,47 @@
 
 ### Task 0
 A Shell script that runs a Python script.
-  * The Python file name will be saved in the environment variable $PYFILE
+  * The Python file name will be saved in the environment variable `$PYFILE`
 
 ### Task 1
 A Shell script that runs Python code.
-  * The Python code will be saved in the environment variable $PYCODE
+  * The Python code will be saved in the environment variable `$PYCODE`
 
 ### Task 2
-A Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+A Python script that prints exactly `"Programming is like building a multilingual puzzle,` followed by a new line.
   * Use the function print
 
 ### Task 3
-Complete a source code to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+Complete a source code to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
   * The source code:
-    ** \\#!/usr/bin/python3
-    ** str = "Holberton School"
-    ** \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+    * \\#!/usr/bin/python3
+    * str = "Holberton School"
+    * \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
  * The output of the program should be:
-    ** 3 times the value of str
-    ** followed by a new line
-    ** followed by the 9 first characters of str
-    ** followed by a new line
+    * 3 times the value of str
+    * followed by a new line
+    * followed by the 9 first characters of str
+    * followed by a new line
  * You are not allowed to use any loops or conditional statement
  * Your program should be maximum 5 lines long
 
 ### Task 4
-Complete the source code in order to print the float stored in the variable number with a precision of 2 digits:
+Complete the source code to print the float stored in the variable `number` with a precision of 2 digits:
   * The source code:
-    ** \\#!/usr/bin/python3
-    ** number = 3.14159
-    ** \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+    * \\#!/usr/bin/python3
+    * number = 3.14159
+    * \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
  * The output of the program should be:
-    ** Float:, followed by the float with only 2 digits followed by a new line
-    ** You are not allowed to cast number to string
- * You have to use f-strings
+    * Float:, followed by the float with only 2 digits followed by a new line
+    * You are not allowed to cast number to string
+ * You have to use `f-strings`
 
 ### Task 5
-Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
+Complete this source code to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
  * The source code:
-   ** \\#!/usr/bin/python3
-   ** str = "Holberton School"
-   ** \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+   * \\#!/usr/bin/python3
+   * str = "Holberton School"
+   * \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
  * The output of the program should be:
  * 3 times the value of str
  * followed by a new line
@@ -52,56 +52,56 @@ Complete this source code in order to print 3 times a string stored in the varia
  * Your program should be maximum 5 lines long
 
 ### Task 6
-Complete a source code to print Welcome to Holberton School!
+Complete a source code to print `Welcome to Holberton School!`
  * The source code here:
-   ** \\#!/usr/bin/python3
-   ** str1 = "Holberton"
-   ** str2 = "School"
-   ** \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
-   ** print(f"Welcome to {str1}!")
+   * \\#!/usr/bin/python3
+   * str1 = "Holberton"
+   * str2 = "School"
+   * \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+   * print(f"Welcome to {str1}!")
  * You are not allowed to use any loops or conditional statements.
  * You have to use the variables str1 and str2 in your new line of code
  * Your program should be exactly 5 lines long
 
 ### Task 7
 Complete this source code:
-   ** \\#!/usr/bin/python3
-   ** word = "Holberton"
-   ** \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
-   ** print(f"First 3 letters: {word_first_3}")
-   ** print(f"Last 2 letters: {word_last_2}")
-   ** print(f"Middle word: {middle_word}")
+   * \\#!/usr/bin/python3
+   * word = "Holberton"
+   * \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+   * print(f"First 3 letters: {word_first_3}")
+   * print(f"Last 2 letters: {word_last_2}")
+   * print(f"Middle word: {middle_word}")
  * You are not allowed to use any loops or conditional statements
- * Your program should be exactly 8 lines long word_first_3 should contain the first 3 letters 
+ * Your program should be exactly 8 lines long `word_first_3` should contain the first 3 letters 
  of the variable word
- * word_last_2 should contain the last 2 letters of the variable word
- * middle_word should contain the value of the variable word without the first and last letters
+ * `word_last_2` should contain the last 2 letters of the variable word
+ * `middle_word` should contain the value of the variable word without the first and last letters
 
 ### Task 8
-Complete this source code to print object-oriented programming with Python, followed by a new line:
-  ** \\#!/usr/bin/python3
-  ** str = "Python is an interpreted, interactive, object-oriented programming\
-  ** language that combines remarkable power with very clear syntax"
-  ** \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
-  ** print(str)
+* Complete this source code to print `object-oriented programming with Python`, followed by a new line:
+   * \\#!/usr/bin/python3
+   * str = "Python is an interpreted, interactive, object-oriented programming\
+   * language that combines remarkable power with very clear syntax"
+   * \\# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+   * print(str)
  * You are not allowed to use any loops or conditional statements
  * Your program should be exactly 5 lines long
  * You are not allowed to create new variables
  * You are not allowed to use string literals
 
 ### Task 9
-Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
-  * Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
+Write a Python script that prints `“The Zen of Python”`, by TimPeters, followed by a new line.
+  * Your script should be maximum 98 characters long `(please check with wc -m 9-easter_egg.py)`
 
 ### Task 10
 Write a function in C that checks if a singly linked list has a cycle in it.
-  * Prototype: int check_cycle(listint_t \*list);
+  * Prototype: `int check_cycle(listint_t \*list);`
   * Return: 0 if there is no cycle, 1 if there is a cycle
 Requirements:
-  * Only these functions are allowed: write, printf, putchar, puts, malloc, free
+  * Only these functions are allowed: `write`, `printf`, `putchar`, `puts`, `malloc`, `free`
 
 ### Task 11
-Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
 
   * Use the function write from the sys module
   * You are not allowed to use print
@@ -111,15 +111,15 @@ Write a Python script that prints exactly and that piece of art is useful - Dora
 ### Task 12
 Write a script that compiles a Python script file.
 
-  * The Python file name will be stored in the environment variable $PYFILE
-  * The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
+  * The Python file name will be stored in the environment variable `$PYFILE`
+  * The output filename has to be `$PYFILEc` (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
 
 ### Task 13
-Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 
-  3           0 LOAD_CONST               1 (98)
-              3 LOAD_FAST                0 (a)
-              6 LOAD_FAST                1 (b)
-              9 BINARY_POWER
-             10 BINARY_ADD
-             11 RETURN_VALUE
+ | 3          | 0 LOAD_CONST           |   1 (98) |
+ |            | 3 LOAD_FAST            |   0 (a)  |
+ |            | 6 LOAD_FAST            |   1 (b)  |
+ |            | 9 BINARY_POWER         |          |
+ |            | 10 BINARY_ADD          |          |
+ |            | 11 RETURN_VALUE        |          |
