@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""Defining an empty class Square."""
+
+
 class Square:
     """ Defining a  class Square """
     def __init__(self, size=0):
