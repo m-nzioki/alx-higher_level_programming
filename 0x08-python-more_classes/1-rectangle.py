@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-""" Creating an empty class Rectangle """
+""" Defining a Rectangle class """
 
 
 class Rectangle:
-    """ Defining Rectangle """
+    """ Represent a Rectangle """
     def __init__(self, width=0, height=0):
         """ Initializing Rectangle
         Args:

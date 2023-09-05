@@ -53,8 +53,16 @@ class Rectangle:
         return (2 * (self.__width + self.__height))
 
     def __str__(self):
-        """Returns a string representation of rectangle printable
+        """Returns a  string representation of rectangle printable
         using the # character"""
         if self.__width == 0 or self.__height == 0:
             return ""
         return "\n".join(["#" * self.__width] * self.__height)
+
+    def __repr__(self):
+        """Returns a string representation of the rectangle
+        to be able to recreate a new instance by using eval()"""
+        return "Rectangle({}, {})".format(self.__width, self.__height)
+
+    def __del__(self):
+        print("Bye rectangle...")

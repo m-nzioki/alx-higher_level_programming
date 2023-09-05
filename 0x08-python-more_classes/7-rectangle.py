@@ -4,7 +4,15 @@
 
 
 class Rectangle:
-    """Represent a rectangle."""
+    """Represent a rectangle
+
+    Attributes:
+        number_of_instances (int): tracks the number of rectangle instances
+        print_symbol (any): Symbol used to print rectangle
+    """
+
+    number_of_instances = 0
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
@@ -15,6 +23,7 @@ class Rectangle:
         """
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -53,8 +62,18 @@ class Rectangle:
         return (2 * (self.__width + self.__height))
 
     def __str__(self):
-        """Returns a string representation of rectangle printable
-        using the # character"""
+        """Returns a  string representation of rectangle printable
+        using the print_symbol character"""
         if self.__width == 0 or self.__height == 0:
             return ""
-        return "\n".join(["#" * self.__width] * self.__height)
+        return ("\n".join([str(self.print_symbol) * self.__width]
+                * self.__height))
+
+    def __repr__(self):
+        """Returns a string representation of the rectangle
+        to be able to recreate a new instance by using eval()"""
+        return "Rectangle({}, {})".format(self.__width, self.__height)
+
+    def __del__(self):
+        Rectangle.number_of_instances -= 1
+        print("Bye rectangle...")
